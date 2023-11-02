@@ -1,2 +1,2 @@
-# mi349-blog
-yurr
+# boilerplate
+Basic HTML and CSS setup for simple web design

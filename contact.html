@@ -1,0 +1,54 @@
+<html lang="en">
+  <head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial scale=1.0">
+  <title>AURULIL</title>
+  </head>
+ <body>
+    <header>
+      <h1>AURULIL</h1>
+      <p>Lillian Marsh</p>
+        <p>Visual Artist</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<head>
+    <title>Contact Me!</title>
+</head>
+<body>
+    <h2>Contact Me</h2>
+    <form>
+        <p>
+            Required fields are followed by
+            <strong><span aria-label="required">*</span></strong>.
+          </p>
+        <div>
+            <label for="name">Name: <span aria-label="required">*</span></label>
+            <input id="name" type="text" name=name" required />
+          </div>
+        <div>
+            <label for="email">Email Address: <span aria-label="required">*</span></label>
+            <input id="email" type="text" name=name" required />
+          </div>
+        <label for="reason">Reason for Contact:</label>
+        <select id="reason" name="reason">
+            <option value="saying_hi">Saying Hi</option>
+            <option value="looking_for_contractor">Looking to Commission</option>
+            <option value="interested_in_interview">Invite Me to a Convention</option>
+        </select>
+        <div>
+             <label for="comments">Comments: <span aria-label="required">*</span></label>
+            <textarea id="comments" name="comments" rows="4" required></textarea>
+             <input type="submit" value="Submit">
+        </div>
+       
+    </form>
+</body>
+</html>
